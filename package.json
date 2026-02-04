@@ -1,5 +1,6 @@
 {
   "name": "get_zero",
+  "version": "1.0.0",
   "description": "Any zero you want.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
