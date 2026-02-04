@@ -20,5 +20,5 @@ import getZero from "get_zero";
 - Option 2: **getZero("string")** returns **"0"** (string);
 - Option 3: **getZero("object")** returns **{0: 0}** (object);
 - Option 4: **getZero("array_number")** returns **[0]** (number[]);
-- Option 4: **getZero("array_string")** returns **["0"]** (string[]);
-- Option 5: **getZero("word")** returns **"zero"** ("string");
+- Option 5: **getZero("array_string")** returns **["0"]** (string[]);
+- Option 6: **getZero("word")** returns **"zero"** ("string");
