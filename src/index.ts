@@ -1,6 +1,6 @@
 export type ZeroType = 'number' | 'string' | 'object' | 'array_number' | 'array_string' | 'word';
 
-export type GetZeroReturnType = number | string | object | Array<number> | Array<string> | [number];
+export type GetZeroReturnType = number | string | object | Array<number | string>;
 
 export type GetZeroFunc = (as?: ZeroType) => GetZeroReturnType;
 
